@@ -1,0 +1,43 @@
+/* Color Palette adapted from: http://www.colourlovers.com/palette/132637/Odd_but_trendy  */
+
+table, th, td {
+  border: 1px solid #000000;
+  /*border-collapse: collapse;*/
+  border-width: thin;
+  border-spacing: 1.5px;
+}
+
+table {
+  text-align: left;
+  align: left;
+  max-width: 100%;
+  background-color: #000000;
+}
+
+tr {
+  width: auto;
+}
+
+td {
+  width: 100px;;
+}
+
+th {
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+.lightColor {
+  background-color: #7DB4B5;
+}
+
+.darkColor {
+  background-color: #680148;
+  color: #ffffff;
+}
+
+td:hover {
+  color: #000000;
+  background-color: #E0EFF1;
+}
